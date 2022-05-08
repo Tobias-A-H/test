@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(208, 229, 235);
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+p:before, p:after{
+    content: '"';
+}
